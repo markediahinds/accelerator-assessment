@@ -1,8 +1,8 @@
-function Anime({ name, description }) {
+function Anime({ anime }) {
   return (
     <div className="anime-item">
-      <p>{name}</p>
-      <p>{description}</p>
+      <p>{anime.name}</p>
+      <p>{anime.description}</p>
     </div>
   );
 }
